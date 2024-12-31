@@ -2,10 +2,37 @@ body {
     font-family: Roboto;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #8d939b;
+    font-size: 18px;
+}
+
 .Header {
-background-color: #1f2937;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1f2937;
+    justify-content: space-between;
+}
+
+.logo-text {
+    color: #f9faf8;
+    font-size: 24px;
+    align-content: center;
+    padding-left: 100px;
+}
+
+.header-links {
+    display: flex;
+    padding-right: 100px;
+    gap: 25px;
 }
